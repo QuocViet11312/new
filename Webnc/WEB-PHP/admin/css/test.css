@@ -1,0 +1,58 @@
+#table_customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table_customers td, #table_customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+/*phân trang*/
+#pagination {
+    text-align: right;
+    margin-top: 15px;
+    text-decoration: none
+
+}
+.clear-both {
+    clear: both;
+    text-decoration: none
+
+}
+.page-item {
+    border: 1px solid #ccc;
+    padding: 5px 9px;
+    color: #000;
+    text-decoration: none
+
+}
+
+.current-page {
+    background: #5082C0;
+    color: #FFF;
+}
+.clear-both {
+    clear: both;
+    text-decoration: none
+
+}
+/*phân trang*/
+#table_customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#table_customers tr:hover {background-color: #ddd;}
+
+#table_customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #5082c0;
+    color: white;
+
+}
+.doimau:hover{
+    color: rgba(106, 161, 246, 0.83);
+}
+.doimau1:hover{
+    background-color: #5082c0;
+}

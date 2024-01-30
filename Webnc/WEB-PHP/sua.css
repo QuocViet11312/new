@@ -1,0 +1,42 @@
+.them{
+    margin-left: 10px;
+    color: #3c0cdc;
+}
+.dangxuat{
+    margin-left: 10px;
+    text-decoration: none
+}
+.top-bar {
+    background-color: #ED2024;
+
+}
+
+.top-bar__social-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 200px 10px  ;
+}
+.top-bar__link{
+    margin: 10px  10px;
+    display: flex;
+
+}
+.top-bar__social-list > li {
+    padding: 5px;
+}
+.top-nav__social-list{
+    display: flex;
+    list-style-type: none;
+
+}
+.top-nav{
+    background-color: white;
+    display: flex;
+}
+.search{
+    border-style: none;
+    border-radius: 5px;
+    width: 300px;
+    font-family: "Times New Roman", Times, serif;
+}
